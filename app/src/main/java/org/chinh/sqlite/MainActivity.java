@@ -6,7 +6,6 @@ import androidx.room.Room;
 import android.os.Bundle;
 
 import org.chinh.sqlite.SQLite.AppDatabase;
-
 public class MainActivity extends AppCompatActivity {
     public static AppDatabase database;
 
@@ -18,4 +17,4 @@ public class MainActivity extends AppCompatActivity {
                 .allowMainThreadQueries()
                 .build();
     }
-}  
+}
